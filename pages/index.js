@@ -1,4 +1,5 @@
 // React + Tailwind base layout for Garage Door King's high-conversion site
+import '../styles/globals.css';
 import React from "react";
 
 export default function Home() {
