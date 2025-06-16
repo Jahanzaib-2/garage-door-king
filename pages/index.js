@@ -1,6 +1,5 @@
 // React + Tailwind base layout for Garage Door King's high-conversion site
 import React from "react";
-import '../styles/globals.css';
 import Link from "next/link";
 
 export default function Home() {
@@ -32,7 +31,7 @@ export default function Home() {
           <Link href="/request-service">
             <a className="inline-block mt-4 bg-blue-500 text-white px-6 py-3 rounded font-bold shadow hover:bg-blue-600">Request Service</a>
           </Link>
-          <div className="mt-3 text-lg text-yellow-500 font-bold">
+          <div className="mt-3 text-xl text-yellow-500 font-bold">
             Or directly call us: <a href="tel:+19052085464" className="hover:underline">905-208-KING (5464)</a>
           </div>
         </div>
@@ -106,5 +105,8 @@ export default function Home() {
         </div>
       </section>
     </main>
+  );
+}
+
   );
 }
