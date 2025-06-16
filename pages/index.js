@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* Header/Nav */}
       <header className="flex justify-between items-center py-4 px-6 border-b shadow-sm">
-        <img src="/logo.svg" alt="Garage Door King" className="h-10" />
+        <img src="/logo.png" alt="Garage Door King" className="h-10" />
         <nav className="space-x-6 text-sm font-semibold">
           <a href="#services">Services</a>
           <a href="#deals">Deals</a>
